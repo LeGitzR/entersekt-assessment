@@ -33,4 +33,19 @@ Visit http://localhost:8080 in your browser
 > - Will be nice if you can git tag the tasks by number
 
 ### Solution
-Explain what you have done here and why...
+Task 1: To edit click the pencil icon next to the todo item, this will load the
+item text into the text box for edit and delete the value from the current todolist.
+
+Task 2: To run the tests, just run npm test
+
+Task 3: To deploy the docker just run "docker-compose up" (run "docker-compose build" if it hasnt been built yet)
+
+Task 4: I tried to get mocha working in the browser to be accessed via GET /test
+but was unsuccessful. Just run npm test or mocha test to run the tests and display the
+test coverage.
+
+Task 5: The input box is susceptible to malicous tags in the text. To ensure this does not
+happen again i included Caja HTML Sanitizer to strip malicous tags from the input string.
+Could not test since I struggled to access the values inside the todolist array.. I tied using chai-dom but was unsuccessful.
+
+
